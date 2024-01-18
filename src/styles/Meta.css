@@ -1,0 +1,37 @@
+:root {
+    --black: #1B1C1F;
+    --white: #fff;
+    --grey :#5A5A5A;
+    --md: 20px;
+  }
+.contenedor-meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 687px;
+    height: 40px;
+    padding: 16px;
+    background-color: white;
+    margin-top: 20px;
+}
+p{
+    font-size: var(--md);
+    color: var(--grey);
+}
+.hecho{
+    text-decoration: line-through;
+}
+.button-container{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+button{
+    background-color: var(--white);
+    border: none;
+}
+.image{
+    width: 20px;
+    height: 20px;
+}

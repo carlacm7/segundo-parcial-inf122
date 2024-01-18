@@ -1,0 +1,47 @@
+:root {
+    --black: #1B1C1F;
+    --white: #f6f7f9;
+    --green: #1C9675;
+    --grey:#767E8C;
+    --lg: 40px;
+  }
+.contenedor-principal{
+    font-size: var(--lg);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.add-container{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+.add-meta{
+    width: 587px;
+    padding: 16px 20px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: var(--white);
+    border: none;
+    color:var(--grey); 
+    font-size: 20px;
+}
+.boton{
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    width: 94px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border: none;
+}
+.contadores{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-top: 20px;
+}

@@ -1,0 +1,25 @@
+:root {
+    --white: #FFF;
+    --green: #117A7A;
+    --gray:#D9D9D9;
+    --lg: 40px;
+    --red: #B2324A;
+  }
+.cont-container{
+    display: flex;
+    width: 334px;
+    padding: 10px 16px;
+    align-items: flex-start;
+    border-radius: 10px;
+    border: 1px solid var(--gray);
+    background-color: var(--white);
+    height: 40px;
+    width: 300px;
+    align-items: center;
+}
+.complete{
+    color: var(--green);
+}
+.pending{
+    color: var(--red);
+}
